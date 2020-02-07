@@ -1,0 +1,147 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.box {
+  position: absolute;
+  left: 25%;
+  top: 25%;
+  transform: translate(25%, 25%);
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background-color: #424242;
+}
+
+.box-orange {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.box-yellow {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  left: 50%;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  transform: translate(-50%);
+}
+.box-blue {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  left: 75%;
+  top: 0;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.box-teal {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+}
+
+.box-purple {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  background-color: purple;
+}
+
+.box-green {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  right: 0;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transform: translateY(-50%);
+}
+
+.box-turquoise {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: turquoise;
+  transform: translateX(-50%);
+}
+
+.box-palevioletred {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  left: 0;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: palevioletred;
+  transform: translateY(-50%);
+}
+
+.box-brown {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  transform: translate(-50%, -50%);
+}
